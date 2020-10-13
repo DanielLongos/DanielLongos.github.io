@@ -1,0 +1,47 @@
+/*Difference between Class and ID
+A Class name can be used by multiple HTML elements, 
+while an ID name must only be used by one HTML element within the page.*/
+
+p{
+    color: Red;
+    width: 300px;
+    background-color: pink;
+    border: 1px solid black;
+}
+html{
+    font-size: 10px; /*px means "pixels": the base font size is now 10 pixels high.*/
+    font-family: "Open Sans", sans-serif; /*this should be the rest of the output you got from Google fonts */
+    background-color: #00539f;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid black;
+    padding: 20px;
+    color: #00539f;
+    text-shadow: 3px 9px 6px red;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 250px;
+    
+}
